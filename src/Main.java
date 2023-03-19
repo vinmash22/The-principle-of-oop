@@ -18,8 +18,8 @@ public class Main {
     }
 
     private static void service(ServiceStationTransport stationTransport, Car car, Bicycle bicycle, Truck truck) {
-        stationTransport.check(null, bicycle, null);
-        stationTransport.check(car, null, null);
-        stationTransport.check(null, null, truck);
+        stationTransport.check(bicycle);
+        stationTransport.check(car);
+        stationTransport.check(truck);
     }
 }

@@ -1,3 +1,5 @@
 public interface ServiceStationTransport {
-    void check(Car car, Bicycle bicycle, Truck truck);
+    void check(Car car);
+    void check(Truck truck);
+    void check(Bicycle bicycle);
 }
